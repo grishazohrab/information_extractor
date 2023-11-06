@@ -27,7 +27,7 @@ def extract_information(file_name: str):
     completions = generate(image, questions)
     result = {}
     for ii, completion in enumerate(completions):
-        result[QUESTIONS[ii][0]] = completion
+        result[QUESTIONS[ii][0]] = completion[1]
 
     return result
 
