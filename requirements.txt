@@ -1,3 +1,4 @@
 pdf2image==1.16.3
+torch
 -e git+https://github.com/huggingface/transformers#egg=pdf2image
 poppler-utils==0.1.0
